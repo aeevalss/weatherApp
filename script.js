@@ -4,7 +4,7 @@ const apiUrl = "https://api.openweathermap.org/data/2.5/weather?units=metric&q="
 const searchBox = document.querySelector('.search input');
 const searchBtn = document.querySelector('.search button');
 const weatherIcon = document.querySelector(".weather-icon");
-let cityName = document.querySelector('.city')
+let cityName = document.querySelector('.city');
 
 
 async function checkWeather(city) {
